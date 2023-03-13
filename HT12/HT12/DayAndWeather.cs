@@ -13,8 +13,8 @@ namespace HT12
             Console.WriteLine(todayWeather);
         };
         public string[] todayWeather = {"Облачно", "Ясно", "Дождь", "Снег", "Изморось", "Гроза", "Ветрено"};
-        public int countDay;
-        public int dateDay;
+        private int countDay;
+        private int dateDay;
         private int CountDay 
         {
             get 
